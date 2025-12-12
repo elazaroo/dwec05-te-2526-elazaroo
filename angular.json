@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "6f2c650b-69c5-49d5-a07d-007ba6a3596b"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -41,6 +42,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "outputPath": "dist/juego-adivinacion",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
